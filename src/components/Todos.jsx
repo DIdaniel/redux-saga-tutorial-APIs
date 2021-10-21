@@ -13,8 +13,6 @@ const Todos = () => {
     });
   }, []);
 
-  console.log(todos);
-
   return (
     <>
       {todos ? (
